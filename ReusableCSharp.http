@@ -1,6 +1,0 @@
-@ReusableCSharp_HostAddress = http://localhost:5127
-
-GET {{ReusableCSharp_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
