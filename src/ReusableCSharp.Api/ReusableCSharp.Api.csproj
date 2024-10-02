@@ -10,4 +10,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\ReusableCSharp.Application\ReusableCSharp.Application.csproj" />
+    <ProjectReference Include="..\..\ReusableCSharp.Exception\ReusableCSharp.Exception.csproj" />
+    <ProjectReference Include="..\ReusableCSharp.Communication\ReusableCSharp.Communication.csproj" />
+    <ProjectReference Include="..\ReusableCSharp.Infrastructure\ReusableCSharp.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

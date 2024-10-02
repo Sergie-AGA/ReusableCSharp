@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReusableCSharp.Communication\ReusableCSharp.Communication.csproj" />
     <ProjectReference Include="..\ReusableCSharp.Domain\ReusableCSharp.Domain.csproj" />
+    <ProjectReference Include="..\ReusableCSharp.Exception\ReusableCSharp.Exception.csproj" />
   </ItemGroup>
 
 </Project>
